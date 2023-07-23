@@ -18,6 +18,8 @@ router.get("/", getTasksSchema, validateMiddleware, async (req, res) => {
 
 router.get(
   "/:id",
+  authMiddleware,
+
   param("id").isInt(),
   validateMiddleware,
   async (req, res) => {

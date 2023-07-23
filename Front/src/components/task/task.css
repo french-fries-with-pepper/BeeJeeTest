@@ -1,0 +1,39 @@
+.task {
+  position: relative;
+  z-index: 50;
+  width: 100%;
+  background-color: var(--bg-main);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.task__fieldWrap--right {
+  text-align: right;
+}
+.task__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+.task__text {
+  padding-bottom: 0.8rem;
+}
+.task__edited {
+  color: var(--accent);
+}
+.task__adminPanel {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.task__statusWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.task__statusText {
+  padding-left: 0.5rem;
+}

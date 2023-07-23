@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--bg-main);
+  color: var(--fg-main);
+  padding: 1rem;
+}
+.header__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

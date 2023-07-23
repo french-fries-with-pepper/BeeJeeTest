@@ -1,0 +1,19 @@
+.editTask {
+  z-index: 100;
+  width: 100%;
+  background-color: var(--bg-sec);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.editTask__btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.editTask__textArea {
+  width: 100%;
+}

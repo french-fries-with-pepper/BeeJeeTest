@@ -5,7 +5,7 @@ import deactivateTokens from "../store/deactivateTokens.js";
 import config from "../.config.js";
 
 export default function (req, res, next) {
-  const token = req.get("Authorization");
+  const token = req.cookies.token;
   try {
     if (deactivateTokens.has(token)) throw new Error();
     const payload = jwt.verify(token, config.jwtSecret);

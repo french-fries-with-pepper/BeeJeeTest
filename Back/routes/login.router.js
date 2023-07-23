@@ -13,6 +13,8 @@ router.post("/", loginSchema, validateMiddleware, async (req, res) => {
     res
       .cookie("token", result, {
         httpOnly: true,
+        sameSite: "none",
+        secure: true,
       })
       .send({ msg: "login success" });
   } else {

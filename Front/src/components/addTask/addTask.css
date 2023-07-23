@@ -1,0 +1,18 @@
+.addTask {
+  width: 100%;
+  background-color: var(--bg-main);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.addTask__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.addTask__field {
+  display: flex;
+  flex-direction: column;
+}
+.addTask__field p {
+  padding-bottom: 0.5rem;
+}

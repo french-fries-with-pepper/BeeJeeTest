@@ -1,0 +1,9 @@
+.wt {
+  background-color: var(--bg-sec);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.wt__header {
+  letter-spacing: 2px;
+  color: var(--accent);
+}
